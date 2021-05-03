@@ -22,7 +22,7 @@ public class CacheConfiguration {
         this.cacheManager = cacheManager;
     }
 
-    @Scheduled(fixedDelay = 1000 * 60)
+    @Scheduled(fixedDelay = 1000 * 60 * 60 * 2)
     public void cacheEvict() {
 
         cacheManager.getCacheNames()
