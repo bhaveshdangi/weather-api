@@ -13,7 +13,7 @@ mvn spring-boot:run
 
 ## API Documentation
 
-Once application is up and started, swagger api documentation is available at
+Once application is up and running, api documentation is available at
 
 ```
 http://localhost:9090/api/swagger-ui.html
